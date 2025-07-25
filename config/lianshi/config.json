@@ -35,55 +35,9 @@
       "listen": "::",
       "listen_port": 80,
       "method": "2022-blake3-aes-128-gcm",
-      "password": "hztQCU1ZB8CAuPMVFJiCJw==",
+      "password": "UETm2mAIRiCaVJuIe1t0cA==",
       "multiplex": {
           "enabled": true
-      }
-    },
-    {
-      "tag":"VLESS-Vision-Reality",
-      "type":"vless",
-      "listen":"::",
-      "listen_port":443,
-      "users":[
-          {
-              "uuid":"625a08bb-d372-4f7c-a2d4-6a50ca3393ce",
-              "flow":"xtls-rprx-vision"
-          }
-      ],
-      "tls":{
-          "enabled":true,
-          "server_name":"updates.cdn-apple.com",
-          "reality":{
-              "enabled":true,
-              "handshake":{
-                  "server":"updates.cdn-apple.com",
-                  "server_port":443
-              },
-              "private_key":"mAQVEs96AtDg1V_b2POFVP8n-Uu6hBe0_1Zt-DtRzGE",
-              "short_id":[
-                  "a118b9425a7e2dc5"
-              ]
-          }
-      }
-    },
-    {
-      "tag": "HYSTERIA2",
-      "type": "hysteria2",
-      "listen": "::",
-      "listen_port": 52021,
-      "users": [
-        {
-          "password": "c36d52aa-12b0-420c-a409-02f0410f6ac4"
-        }
-      ],
-      "tls": {
-        "enabled": true,
-        "alpn": [
-          "h3"
-        ],
-        "certificate_path": "/etc/ssl/yu.ykszckj.com/yu.ykszckj.com.crt",
-        "key_path": "/etc/ssl/yu.ykszckj.com/yu.ykszckj.com.key"
       }
     }
   ],
